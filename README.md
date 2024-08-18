@@ -27,7 +27,7 @@ To run SilverMation, your system must meet the following criteria:
 - Ensure you have [.NET 8 Runtime or Greater .NET version](https://dotnet.microsoft.com/en-us/download) installed. If not already installed, start the program, and you'll be prompted to download and install it.
 
 # This app made possible by
-- `iNKORE.UI.WPF.Moden`
+- `iNKORE.UI.WPF.Modern`
 - `Win App Library`
 - `DotNet`
 
