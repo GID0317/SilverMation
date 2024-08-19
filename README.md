@@ -12,8 +12,9 @@
 
 
 # Aplication Overview
-![image](https://github.com/user-attachments/assets/53ef471b-8e73-4b22-a8d9-404cf08f04ea)
-![image](https://github.com/user-attachments/assets/548457fc-e2ba-4f3a-b1c6-065ef9102884)
+![image](https://github.com/user-attachments/assets/2548817e-33b2-43ed-9acd-a1bd40d0ea40)
+![image](https://github.com/user-attachments/assets/c11aea95-d332-4dd5-b1de-b304c56f1a2e)
+![image](https://github.com/user-attachments/assets/e3ed68aa-788d-42c3-9148-7b789b2082f7)
 
 # How Can I Download It?
 > [!NOTE]
