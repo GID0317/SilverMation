@@ -19,7 +19,6 @@
 
 # How Can I Download It?
 > [!NOTE]
-
 > Go to the Release Page > Click At the Assets > [Download The Latest Version](https://github.com/GID0317/SilverMation/releases/latest "Download The Latest Version") (Recomended) Or [Download Apropriate Version  You Need](https://github.com/GID0317/SilverMation/releases "Download Apropriate Versions You Need")
 
 To run SilverMation, your system must meet the following criteria:
