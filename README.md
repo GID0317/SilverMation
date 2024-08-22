@@ -25,7 +25,7 @@
 
 To run SilverMation, your system must meet the following criteria:
 
-- SilverMation is suported from Windows 7 to Windows 11 (64-bit systems). But We Recomend you to run it from Windows 10 (1803+) or Windows 11 (64-bit systems)
+- We Recomend you to run it from Windows 10 (1803+) or Windows 11 (64-bit systems)
 - Ensure you have [.NET 8 Runtime or Greater .NET version](https://dotnet.microsoft.com/en-us/download) installed. If not already installed, start the program, and you'll be prompted to download and install it.
 
 # This app made possible by
