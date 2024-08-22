@@ -6,17 +6,26 @@
     <br/>
     SilverMation
     <br/>
+
+  </h1>
     <a href="https://dotnet.microsoft.com/en-us/download/dotnet/latest/runtime">
       <img alt="Windows" src="https://img.shields.io/badge/platform-Windows-blue?logo=windows11&style=flat-square&color=1E9BFA" />
      </a>
     <a href="https://github.com/GID0317/SilverMation/releases">
-      <img alt="下载数" src="https://img.shields.io/github/downloads/GID0317/SilverMation/total?logo=github&style=flat-square&color=1E9BFA">
+      <img alt="Total" src="https://img.shields.io/github/downloads/GID0317/SilverMation/total?logo=github&style=flat-square&color=1E9BFA">
     </a>
     <a href="https://github.com/GID0317/SilverMation/releases">
       <img alt="Release" src="https://img.shields.io/github/v/release/GID0317/SilverMation?logo=visualstudio&style=flat-square&color=1E9BFA">
     </a>
-  </h1>
+  <p align="left">SilverMation is designed to expand the missing automation that currently available in Honkai Star Rail, to make the grinding and battle experience much better.</p>
 </div>
+
+
+
+
+
+# Function
+- Auto "One more time", Automatically press the ‘One more time’ button after completing a battle when the TrailBlazer power is sufficient.
 
 # Aplication Overview
 ![image](https://github.com/user-attachments/assets/2548817e-33b2-43ed-9acd-a1bd40d0ea40)
