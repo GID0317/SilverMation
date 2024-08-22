@@ -36,6 +36,8 @@
 > [!NOTE]
 > Go to the Release Page > Click At the Assets > [Download The Latest Version](https://github.com/GID0317/SilverMation/releases/latest "Download The Latest Version") (Recomended) Or [Download Apropriate Version  You Need](https://github.com/GID0317/SilverMation/releases "Download Apropriate Versions You Need")
 
+Please read our [Instalation Guide](https://github.com/GID0317/SilverMation/wiki/Installation-Guide) for more detail about instalation process.
+
 To run SilverMation, your system must meet the following criteria:
 
 - We Recomend you to run it from Windows 10 (1803+) or Windows 11 (64-bit systems)
