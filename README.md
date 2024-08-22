@@ -8,6 +8,12 @@
     <br/>
     <a href="https://dotnet.microsoft.com/en-us/download/dotnet/latest/runtime">
       <img alt="Windows" src="https://img.shields.io/badge/platform-Windows-blue?logo=windows11&style=flat-square&color=1E9BFA" />
+     </a>
+    <a href="https://github.com/GID0317/SilverMation/releases">
+      <img alt="下载数" src="https://img.shields.io/github/downloads/GID0317/SilverMation/total?logo=github&style=flat-square&color=1E9BFA">
+    </a>
+    <a href="https://github.com/GID0317/SilverMation/releases">
+      <img alt="Release" src="https://img.shields.io/github/v/release/GID0317/SilverMation?logo=visualstudio&style=flat-square&color=1E9BFA">
     </a>
   </h1>
 </div>
