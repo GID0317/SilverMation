@@ -10,7 +10,7 @@ body:
 
 - type: input
   attributes:
-    label: Affected MyTel-U Version
+    label: Affected SilverMation Version
     placeholder: Input the version number here, for example (1.0.0)
     description: You can find it on the settings page within the application.
   validations:
