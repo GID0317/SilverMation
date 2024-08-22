@@ -1,15 +1,16 @@
 <div align="center">
   <h1 align="center">
-    <a href="https://bgi.huiyadan.com/"><img src="https://github.com/user-attachments/assets/6da1c75f-fa22-4a13-9ff1-59f41091db3f" width="200"></a>
+    <a href="#">
+      <img src="https://github.com/user-attachments/assets/6da1c75f-fa22-4a13-9ff1-59f41091db3f" width="200" alt="SilverMation Logo">
+    </a>
     <br/>
     SilverMation
     <br/>
     <a href="https://dotnet.microsoft.com/en-us/download/dotnet/latest/runtime">
-    <img alt="Windows" src="https://img.shields.io/badge/platform-Windows-blue?logo=windows11&style=flat-square&color=1E9BFA" />
-  </a>
+      <img alt="Windows" src="https://img.shields.io/badge/platform-Windows-blue?logo=windows11&style=flat-square&color=1E9BFA" />
+    </a>
+  </h1>
 </div>
-
-
 
 # Aplication Overview
 ![image](https://github.com/user-attachments/assets/2548817e-33b2-43ed-9acd-a1bd40d0ea40)
