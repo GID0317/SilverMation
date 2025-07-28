@@ -28,8 +28,8 @@
 - Auto "One more time", Automatically press the ‘One more time’ button after completing a battle when the TrailBlazer power is sufficient.
 
 # Aplication Overview
-![image](https://github.com/user-attachments/assets/2548817e-33b2-43ed-9acd-a1bd40d0ea40)
-![image](https://github.com/user-attachments/assets/c11aea95-d332-4dd5-b1de-b304c56f1a2e)
+![image](https://github.com/user-attachments/assets/91db1d3d-0bf8-4b7d-8b3f-ffc4359472b9)
+![image](https://github.com/user-attachments/assets/e285601f-b97a-4392-ad31-51a400b2cd6c)
 ![image](https://github.com/user-attachments/assets/e3ed68aa-788d-42c3-9148-7b789b2082f7)
 
 # How Can I Download It?
