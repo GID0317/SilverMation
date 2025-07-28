@@ -1,4 +1,4 @@
-﻿using System.Diagnostics;
+using System.Diagnostics;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Windows;
@@ -42,7 +42,8 @@ namespace SilverMation
             if (!string.IsNullOrEmpty(_selectedExecutablePath))
             {
                 _targetWindowHandle = FindWindowByFilePath(_selectedExecutablePath);
-                ExeLocation.Text = _selectedExecutablePath;
+                ExeLocationCard.Description = _selectedExecutablePath;
+                ExeLocation.Text = "";
             }
 
             _interval = RegistryHelper.LoadInterval();
@@ -292,8 +293,9 @@ namespace SilverMation
                 Debug.WriteLine($"Selected file path: {_selectedExecutablePath}");
                 Debug.WriteLine($"Target window handle: {_targetWindowHandle}");
 
-                // Update the ExeLocation TextBlock with the selected file path
-                ExeLocation.Text = _selectedExecutablePath;
+                // Update the card description with the full path and clear the ExeLocation text
+                ExeLocationCard.Description = _selectedExecutablePath;
+                ExeLocation.Text = "";
             }
         }
 
