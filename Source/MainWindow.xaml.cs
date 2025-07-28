@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Windows;
 using System.Windows.Media.Imaging;
 using iNKORE.UI.WPF.Modern.Controls;
@@ -55,9 +55,23 @@ namespace SilverMation
 
         private bool IsUpdateAvailable(string currentVersion, string latestVersion)
         {
-            Version current = new Version(currentVersion);
-            Version latest = new Version(latestVersion);
-            return current.CompareTo(latest) < 0;
+            // Clean up the version strings to handle any whitespace or newlines
+            currentVersion = currentVersion.Trim();
+            latestVersion = latestVersion.Trim();
+
+            if (Version.TryParse(currentVersion, out Version current) && 
+                Version.TryParse(latestVersion, out Version latest))
+            {
+                // Compare major, minor, build, and revision numbers
+                if (current.Major != latest.Major) return current.Major < latest.Major;
+                if (current.Minor != latest.Minor) return current.Minor < latest.Minor;
+                if (current.Build != latest.Build) return current.Build < latest.Build;
+                if (current.Revision != latest.Revision) return current.Revision < latest.Revision;
+                return false; // Versions are equal
+            }
+
+            Debug.WriteLine($"Failed to parse versions - Current: {currentVersion}, Latest: {latestVersion}");
+            return false; // If we can't parse the versions, don't show update
         }
 
         private string GetCurrentVersion()
@@ -72,10 +86,22 @@ namespace SilverMation
                 string currentVersion = GetCurrentVersion();
                 string latestVersion = await FetchLatestVersionAsync();
 
+                Debug.WriteLine($"Current Version: {currentVersion}");
+                Debug.WriteLine($"Latest Version: {latestVersion}");
+
+                Version current = new Version(currentVersion);
+                Version latest = new Version(latestVersion);
+                Debug.WriteLine($"Version Comparison Result: {current.CompareTo(latest)}");
+
                 if (IsUpdateAvailable(currentVersion, latestVersion))
                 {
+                    Debug.WriteLine("Update is available, showing InfoBar");
                     // Show the InfoBar on the HomePage
                     _homePage.ShowUpdateInfoBar();
+                }
+                else
+                {
+                    Debug.WriteLine("No update needed");
                 }
             }
             else
