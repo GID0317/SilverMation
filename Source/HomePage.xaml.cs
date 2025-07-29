@@ -175,8 +175,9 @@ namespace SilverMation
                         SaveSettings();
                         Debug.WriteLine($"Selected file path: {_selectedExecutablePath}");
                         Debug.WriteLine($"Target window handle: {_targetWindowHandle}");
-
-                        ExeLocation.Text = _selectedExecutablePath;
+                    
+                        ExeLocationCard.Description = _selectedExecutablePath;
+                        ExeLocation.Text = "";
                     }
                 }
 
