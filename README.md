@@ -18,6 +18,7 @@
       <img alt="Release" src="https://img.shields.io/github/v/release/GID0317/SilverMation?logo=visualstudio&style=flat-square&color=1E9BFA">
     </a>
   <p align="left">SilverMation is designed to expand the missing automation that currently available in Honkai Star Rail, to make the grinding and battle experience much better.</p>
+  <p align="center">Give a star 🌟 to get notified about updates on home!</p>
 </div>
 
 
